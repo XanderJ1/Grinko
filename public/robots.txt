@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.grinko.co.uk
+
+# Sitemaps
+Sitemap: https://www.grinko.co.uk/sitemap.xml

@@ -55,7 +55,7 @@ const AboutUs = () => {
             name: 'Sarah Mensah',
             role: 'Founder & CEO',
             image: 'https://images.unsplash.com/photo-1494790108755-2616b612b3a4?w=400&h=400&fit=crop&crop=face',
-            description: 'With over 8 years in the cleaning industry, Sarah founded Grinko to bring professional, reliable cleaning services to homes and businesses across Accra.'
+            description: 'With over 8 years in the cleaning industry, Sarah founded Grinko to bring professional, reliable cleaning services to homes and businesses across the UK.'
         },
         {
             name: 'Michael Asante',
@@ -81,10 +81,10 @@ const AboutUs = () => {
 
     return (
         <div className="max-w-6xl mx-auto py-8">
-            <h1 className="text-4xl text-center mb-6">About Us</h1>
+            <h1 className="text-4xl text-center mb-6">About Grinko Cleaning Services</h1>
             <div className="flex flex-col-reverse md:flex-row justify-center px-2">
-                <div className="flex flex-col justify-center gap-4">
-                    <h1 className="text-xl text-start mt-4">
+                <div className="flex flex-col justify-center mr-10 gap-4">
+                    <h1 className="font-bold text-xl text-start mt-4">
                         Your Trusted Cleaning Experts</h1>
                     <p className="text-xl">
                         At Grinko, we provide professional cleaning services tailored for both homes and businesses Our mission is simple — to create spotless, welcoming spaces so you can focus on what matters most.
@@ -96,9 +96,9 @@ const AboutUs = () => {
             </div>
             <div className="flex flex-col gap-5 my-12 px-2">
                 <h1 className="text-4xl">Our Story</h1>
-                <p className="text-gray-600 leading-8">Grinko was born from a simple belief: everyone deserves to come home to a clean, healthy space without the stress of doing it themselves. Founded in 2019 by Sarah Mensah, our journey began when she recognized the growing need for reliable, professional cleaning services in Accra's busy urban landscape.
-                    What started as a small team of dedicated cleaners has grown into one of Accra's most trusted cleaning service providers. We've built our reputation one satisfied customer at a time, always putting quality, reliability, and customer satisfaction at the heart of everything we do.
-                    Today, we're proud to serve hundreds of families and businesses across Greater Accra, providing them with the peace of mind that comes from knowing their spaces are in caring, professional hands.
+                <p className="text-gray-600 leading-8">Grinko was born from a simple belief: everyone deserves to come home to a clean, healthy space without the stress of doing it themselves. Founded in 2019 by Prince Brako, our journey began when she recognized the growing need for reliable, professional cleaning services in Reading's busy urban landscape.
+                    What started as a small team of dedicated cleaners has grown into one of Reading's most trusted cleaning service providers. We've built our reputation one satisfied customer at a time, always putting quality, reliability, and customer satisfaction at the heart of everything we do.
+                    Today, we're proud to serve hundreds of families and businesses across UK, providing them with the peace of mind that comes from knowing their spaces are in caring, professional hands.
                 </p>
                 <img className={"h-100 rounded-2xl"} src="/images/teamm.webp"  alt={"A boy"}/>
 
