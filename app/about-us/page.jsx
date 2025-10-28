@@ -1,4 +1,8 @@
-import AboutUs from '@/components/About Us'
+import dynamic from 'next/dynamic'
+
+const AboutUs = dynamic(() => import('@/components/About Us'), {
+    ssr: true,
+})
 
 export const metadata = {
     title: 'About Us | Grinko Cleaning Services UK',
@@ -8,6 +12,10 @@ export const metadata = {
         'grinko cleaning, cleaning company UK, home cleaning, office cleaning, about grinko, eco-friendly cleaning, janitorial services',
     alternates: {
         canonical: 'https://www.grinko.co.uk/about-us',
+    },
+    robots: {
+        index: true,
+        follow: true,
     },
     openGraph: {
         title: 'About Grinko Cleaning Services | Professional Cleaning in the UK',
@@ -39,6 +47,7 @@ export default function AboutUsPage() {
     return (
         <main className="bg-gray-50 min-h-screen py-10">
             <section className="container mx-auto px-4">
+                <h1 className="sr-only">About Grinko Cleaning Services UK</h1>
                 <AboutUs />
             </section>
         </main>
