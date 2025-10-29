@@ -36,6 +36,36 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
+        <head>
+            {/* ✅ Add business location structured data */}
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        '@context': 'https://schema.org',
+                        '@type': 'LocalBusiness',
+                        name: 'Grinko Cleaning Services',
+                        image: 'https://www.grinko.co.uk/images/logo.png',
+                        url: 'https://www.grinko.co.uk',
+                        telephone: '+44 7858 860 101',
+                        address: {
+                            '@type': 'PostalAddress',
+                            streetAddress: '200 Brook Drive, Reading, United Kingdom',
+                            addressLocality: 'Reading',
+                            postalCode: 'RG2 7UH',
+                            addressCountry: 'GB',
+                        },
+                        geo: {
+                            '@type': 'GeoCoordinates',
+                            latitude: 51.441678296438845,
+                            longitude: -0.9612576482928793,
+                        },
+                        openingHours: 'Mo-Su 08:00-18:00',
+                        priceRange: '££',
+                    }),
+                }}
+            />
+        </head>
         <body className="bg-gray-100">
         <Header />
         {children}

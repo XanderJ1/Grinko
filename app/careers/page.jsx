@@ -17,7 +17,7 @@ export const metadata = {
         siteName: 'Grinko Cleaning Services',
         images: [
             {
-                url: '/images/careers-banner.jpg', // Replace with your real banner
+                url: '/favicon.png',
                 width: 1200,
                 height: 630,
                 alt: 'Grinko Cleaning Careers Banner',
