@@ -2,6 +2,7 @@ import Hero from '@/components/Hero'
 import OurServices from '@/components/OurServices'
 import Testimonials from '@/components/Testimonials'
 import Footer from "@/components/Footer";
+import OpeningHours from "@/components/OpeningHours";
 
 export const metadata = {
     title: 'Home | Grinko Cleaning Services',
@@ -43,6 +44,10 @@ export default function HomePage() {
                     Testimonials
                 </h2>
                 <Testimonials/>
+            </section>
+
+            <section aria-labelledby="working-hours">
+                <OpeningHours />
             </section>
         </main>
     )
