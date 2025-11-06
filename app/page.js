@@ -31,15 +31,19 @@ export default function HomePage() {
                 <h2 id="services-heading" className="sr-only">
                     Our Services
                 </h2>
-                <OurServices />
+                <div data-bid="162116" data-url="https://app.revu.cloud" data-aid="25780">
+                    <script src="https://widget.reviewability.com/js/widgetAdv.min.js" async></script>
+                </div>
+                <script className="json-ld-content" type="application/ld+json"></script>
+
+                <OurServices/>
             </section>
             <section aria-labelledby="testimonials-heading">
                 <h2 id="testimonials-heading" className="sr-only">
                     Testimonials
                 </h2>
-                <Testimonials />
+                <Testimonials/>
             </section>
-            <Footer />
         </main>
     )
 }

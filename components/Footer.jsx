@@ -63,7 +63,7 @@ const Footer = () => {
                             </div>
                             <div className="flex items-start">
                                 <i className="pi pi-map-marker mr-3 text-green-400 mt-1"></i>
-                                <span>200 Brook Drive, Reading, United Kingdom</span>
+                                <span>36 Morpeth Cl, Reading RG2 7UH, United Kingdom</span>
                             </div>
                         </div>
 
