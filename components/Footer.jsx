@@ -69,11 +69,11 @@ const Footer = () => {
 
                         {/* Social Media Icons */}
                         <div className="flex space-x-4 pt-2">
-                            <a href="#" className="text-gray-300 hover:text-green-400 transition">
+                            <a href="https://www.facebook.com/share/1YmqMzwetd/?mibextid=wwXIfr" className="text-gray-300 hover:text-green-400 transition">
                                 <i className="pi pi-facebook text-xl"></i>
                             </a>
-                            <a href="#" className="text-gray-300 hover:text-green-400 transition">
-                                <i className="pi pi-twitter text-xl"></i>
+                            <a href="https://www.tiktok.com/@grinko.co.uk?_r=1&_t=ZN-91AhB7rwuko" className="text-gray-300 hover:text-green-400 transition">
+                                <i className="pi pi-tiktok text-xl"></i>
                             </a>
                             <a href="#" className="text-gray-300 hover:text-green-400 transition">
                                 <i className="pi pi-instagram text-xl"></i>
