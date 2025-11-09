@@ -84,7 +84,7 @@ const OurServices = () => {
                 <Card
                     title="Carpet & Upholstery Cleaning"
                     message="Refresh your carpets and upholstery with our deep cleaning techniques that remove dirt, allergens, and stains, leaving your home fresh and healthy."
-                    image="/images/carpet.jpg"
+                    image="/images/uphol.jpg"
                 />
                 <Card
                     title="Office Cleaning"
@@ -105,11 +105,6 @@ const OurServices = () => {
                     title="Move-In / Move-Out Cleaning"
                     message="Make moving stress-free with a detailed cleaning that ensures your old space is spotless and your new home is move-in ready."
                     image="/images/moveout.jpg"
-                />
-                <Card
-                    title="Carpet and upholstery"
-                    message="Experience a professional deep clean that rejuvenates your carpets and upholstery, restoring their original softness and beauty"
-                    image="/images/uphol.jpg"
                 />
             </div>
 
