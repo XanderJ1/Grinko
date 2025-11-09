@@ -106,6 +106,11 @@ const OurServices = () => {
                     message="Make moving stress-free with a detailed cleaning that ensures your old space is spotless and your new home is move-in ready."
                     image="/images/moveout.jpg"
                 />
+                <Card
+                    title="Carpet and upholstery"
+                    message="Experience a professional deep clean that rejuvenates your carpets and upholstery, restoring their original softness and beauty"
+                    image="/images/uphol.jpg"
+                />
             </div>
 
             <div>
