@@ -84,7 +84,7 @@ const OurServices = () => {
                 <Card
                     title="Carpet & Upholstery Cleaning"
                     message="Refresh your carpets and upholstery with our deep cleaning techniques that remove dirt, allergens, and stains, leaving your home fresh and healthy."
-                    image="/images/uphol.jpg"
+                    image="/images/carpet.jpg"
                 />
                 <Card
                     title="Office Cleaning"
