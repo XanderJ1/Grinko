@@ -101,11 +101,13 @@ const OurServices = () => {
                     message="Ensure a 5-star guest experience with our thorough Airbnb cleaning service, leaving every space spotless and guest-ready."
                     image="/images/airbnb.jpg"
                 />
+
                 <Card
                     title="Move-In / Move-Out Cleaning"
                     message="Make moving stress-free with a detailed cleaning that ensures your old space is spotless and your new home is move-in ready."
                     image="/images/moveout.jpg"
                 />
+
             </div>
 
             <div>

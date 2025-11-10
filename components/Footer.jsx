@@ -78,7 +78,7 @@ const Footer = () => {
                             <a href="#" className="text-gray-300 hover:text-green-400 transition">
                                 <i className="pi pi-instagram text-xl"></i>
                             </a>
-                            <a href="#" className="text-gray-300 hover:text-green-400 transition">
+                            <a href="https://wa.me/447858860101" className="text-gray-300 hover:text-green-400 transition">
                                 <i className="pi pi-whatsapp text-xl"></i>
                             </a>
                         </div>
