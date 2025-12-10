@@ -63,7 +63,7 @@ const Footer = () => {
                             </div>
                             <div className="flex items-start">
                                 <i className="pi pi-map-marker mr-3 text-green-400 mt-1"></i>
-                                <span> Whitley, Reading RG2 7UH, United Kingdom</span>
+                                <span> Whitley, United Kingdom</span>
                             </div>
                         </div>
 
