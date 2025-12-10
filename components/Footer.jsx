@@ -10,7 +10,7 @@ const Footer = () => {
 
                     {/* Company Info */}
                     <div className="space-y-4">
-                        <h2 className="text-3xl font-bold text-green-600">Grinko</h2>
+                        <h2 className="text-3xl font-bold text-green-600">Grinko Company</h2>
                         <p className="text-gray-300 leading-relaxed">
                             Your trusted cleaning team providing professional cleaning services
                             for homes and businesses. We keep your spaces spotless when you need it most.
