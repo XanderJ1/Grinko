@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Header = () => {
     return (
             <header className="hero py-4  mx-auto max-w-7xl flex items-center justify-between px-2">
-                <Link href={"/"} className="text-3xl text-green-600">Grinko <i className="text-md align-text-top text-[20px] pi pi-sparkles"></i></Link>
+                <Link href={"/"} className="text-3xl text-green-600">Grinko Company <i className="text-md align-text-top text-[20px] pi pi-sparkles"></i></Link>
                 <nav className="flex gap-5">
                     <ul className="hidden md:flex text-xl gap-8 items-center">
                         <Link href={"/"}>Home</Link>
