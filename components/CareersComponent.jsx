@@ -137,7 +137,7 @@ const CareersComponent = () => {
                 <div className="max-w-6xl mx-auto px-4 text-center">
                     <h1 className="text-5xl font-bold mb-4">Join Our Team</h1>
                     <p className="text-xl mb-8 max-w-3xl mx-auto">
-                        Build a rewarding career with one of Ghana's leading cleaning services.
+                        Build a rewarding career with one of UK's leading cleaning services.
                         We're looking for dedicated professionals who take pride in their work.
                     </p>
                     <button
